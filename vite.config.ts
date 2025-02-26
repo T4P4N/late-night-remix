@@ -9,6 +9,9 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  optimizeDeps: {
+    exclude: ["@shopify/polaris", "@shopify/react-i18n"],
+  },
   plugins: [
     remix({
       future: {
