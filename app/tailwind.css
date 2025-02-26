@@ -10,3 +10,7 @@ body {
     color-scheme: dark;
   }
 }
+
+.Polaris-EmptyState__Image {
+  opacity: 100% !important;
+}
