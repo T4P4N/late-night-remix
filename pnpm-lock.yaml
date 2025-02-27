@@ -36,11 +36,11 @@ importers:
         specifier: ^3.63.1
         version: 3.76.0
       '@shopify/polaris':
-        specifier: ^12.0.0
-        version: 12.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^13.9.3
+        version: 13.9.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@shopify/shopify-app-remix':
         specifier: ^3.7.0
-        version: 3.7.2(@remix-run/node@2.15.3(typescript@5.7.3))(@remix-run/react@2.15.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@shopify/polaris@12.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+        version: 3.7.2(@remix-run/node@2.15.3(typescript@5.7.3))(@remix-run/react@2.15.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@shopify/polaris@13.9.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@shopify/shopify-app-session-storage-prisma':
         specifier: ^6.0.0
         version: 6.0.2(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@shopify/shopify-api@11.9.0)(@shopify/shopify-app-session-storage@3.0.13(@shopify/shopify-api@11.9.0))(prisma@6.4.1(typescript@5.7.3))
@@ -1626,22 +1626,19 @@ packages:
     engines: {node: '>=18.12.0'}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-  '@shopify/polaris-icons@8.11.1':
-    resolution: {integrity: sha512-2HLzvJWMejKIwS5P2bs7k5CAjBKwPnD/iy9ncPzcgqRjmFInBXLtUXFQhPWDw6JwXzb1ZjNQK/ssTctcfz87Sw==}
-    engines: {node: ^16.17.0 || >=18.12.0}
+  '@shopify/polaris-icons@9.3.0':
+    resolution: {integrity: sha512-fnH5Lcd3WFZNjlxGYGNtnjeq3P2xonRV8vChW4PqBfxdKlY/GQ/3/rIuxHzIgmLL0zukeZUaqERUN0lwSU+Xmg==}
+    engines: {node: '>=20.10.0'}
     peerDependencies:
       react: '*'
-    peerDependenciesMeta:
-      react:
-        optional: true
 
-  '@shopify/polaris-tokens@8.10.0':
-    resolution: {integrity: sha512-y4PDtRbFKGHwA6Lu7a3L4N9SDP6gZv4tw6u0viumtcXcbF0T2j1xPmyuJZNc9c7vmhNSARCg27NGQFpPgxuaEg==}
-    engines: {node: ^16.17.0 || >=18.12.0}
+  '@shopify/polaris-tokens@9.4.1':
+    resolution: {integrity: sha512-FgmoKz62+5gvP4l1tZcvhbgITU+PuqvQ7FLKoH71N3tdQgAyueMcyNNWjIT1snQPrJAyW0sjVqVa2OQWoFC52g==}
+    engines: {node: '>=20.10.0'}
 
-  '@shopify/polaris@12.27.0':
-    resolution: {integrity: sha512-Y8yus6iEjcfW2ZtEJtlqxbWeDJqTX3S/MOLH4GWRvU5gFYJQhlaHaETs0+OimbhEpO95mXbY8qB+KnIJaVBHwA==}
-    engines: {node: ^16.17.0 || >=18.12.0}
+  '@shopify/polaris@13.9.3':
+    resolution: {integrity: sha512-EoLVe/WF+xLze+jA4GEP65g2E8Sv7kjdq6w8otMFAfyFABZtQZ3ExjHEy5iTxWEL+1Ar4Cp22oeHLCGP/UTYJg==}
+    engines: {node: '>=20.10.0'}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -6676,18 +6673,18 @@ snapshots:
 
   '@shopify/network@3.3.0': {}
 
-  '@shopify/polaris-icons@8.11.1(react@18.3.1)':
-    optionalDependencies:
+  '@shopify/polaris-icons@9.3.0(react@18.3.1)':
+    dependencies:
       react: 18.3.1
 
-  '@shopify/polaris-tokens@8.10.0':
+  '@shopify/polaris-tokens@9.4.1':
     dependencies:
       deepmerge: 4.3.1
 
-  '@shopify/polaris@12.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@shopify/polaris@13.9.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@shopify/polaris-icons': 8.11.1(react@18.3.1)
-      '@shopify/polaris-tokens': 8.10.0
+      '@shopify/polaris-icons': 9.3.0(react@18.3.1)
+      '@shopify/polaris-tokens': 9.4.1
       '@types/react': 18.3.18
       '@types/react-dom': 18.3.5(@types/react@18.3.18)
       '@types/react-transition-group': 4.4.12(@types/react@18.3.18)
@@ -6712,7 +6709,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@shopify/shopify-app-remix@3.7.2(@remix-run/node@2.15.3(typescript@5.7.3))(@remix-run/react@2.15.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@shopify/polaris@12.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
+  '@shopify/shopify-app-remix@3.7.2(@remix-run/node@2.15.3(typescript@5.7.3))(@remix-run/react@2.15.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@shopify/polaris@13.9.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
     dependencies:
       '@remix-run/react': 2.15.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@remix-run/server-runtime': 2.15.3(typescript@5.7.3)
@@ -6725,7 +6722,7 @@ snapshots:
       semver: 7.7.1
     optionalDependencies:
       '@remix-run/node': 2.15.3(typescript@5.7.3)
-      '@shopify/polaris': 12.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@shopify/polaris': 13.9.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - encoding
       - typescript
