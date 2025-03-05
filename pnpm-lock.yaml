@@ -33,8 +33,8 @@ importers:
         specifier: ^4.1.6
         version: 4.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@shopify/cli':
-        specifier: ^3.63.1
-        version: 3.76.0
+        specifier: ^3.76.1
+        version: 3.76.1
       '@shopify/polaris':
         specifier: ^12.0.0
         version: 12.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1606,8 +1606,8 @@ packages:
   '@shopify/app-bridge-types@0.0.16':
     resolution: {integrity: sha512-UjKot8gOAv0qc9dxaooQv9fl1ob6zlupuOAgexj++H8cYQuAD8I6cbJ/whY4skqRXM/qZn68vuERq3eeDlByJg==}
 
-  '@shopify/cli@3.76.0':
-    resolution: {integrity: sha512-xaTH0HyySMYIdOJUPTvMEY68s96jfwEJxbh2v5v0W7+o1JO9dfcaKAz3EcLLWzPE8s7/LuZZj+e1w68OlTuefg==}
+  '@shopify/cli@3.76.1':
+    resolution: {integrity: sha512-QIKS5YFkfJAG63EiwPyAWQEDG5KRtJ/5+KDCI1ZZDvnJPlrfzlKy5U8L9cpfAvrDvsT/NCsiDFW+6GHoFGA9CA==}
     engines: {node: ^18.20.0 || >=20.10.0}
     os: [darwin, linux, win32]
     hasBin: true
@@ -6657,7 +6657,7 @@ snapshots:
 
   '@shopify/app-bridge-types@0.0.16': {}
 
-  '@shopify/cli@3.76.0':
+  '@shopify/cli@3.76.1':
     dependencies:
       '@ast-grep/napi': 0.33.0
       esbuild: 0.24.2
