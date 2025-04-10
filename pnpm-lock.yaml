@@ -45,8 +45,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.2(@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3))(@shopify/shopify-api@11.9.0)(@shopify/shopify-app-session-storage@3.0.13(@shopify/shopify-api@11.9.0))(prisma@6.4.1(typescript@5.7.3))
       isbot:
-        specifier: ^5.1.0
-        version: 5.1.23
+        specifier: ^5.1.26
+        version: 5.1.26
       prisma:
         specifier: ^6.2.1
         version: 6.4.1(typescript@5.7.3)
@@ -3305,8 +3305,8 @@ packages:
   isarray@2.0.5:
     resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
 
-  isbot@5.1.23:
-    resolution: {integrity: sha512-ie3ehy2iXdkuzaZx32SoKb9b8l9Cm8cqQ1lJjQXnq8GRTrk/Jx7IUDcB4mhlw6H3gWaMqGYoWeV0lPv1P/20Ig==}
+  isbot@5.1.26:
+    resolution: {integrity: sha512-3wqJEYSIm59dYQjEF7zJ7T42aqaqxbCyJQda5rKCudJykuAnISptCHR/GSGpOnw8UrvU+mGueNLRJS5HXnbsXQ==}
     engines: {node: '>=18'}
 
   isexe@2.0.0:
@@ -6703,7 +6703,7 @@ snapshots:
       '@shopify/network': 3.3.0
       '@shopify/storefront-api-client': 1.0.5
       compare-versions: 6.1.1
-      isbot: 5.1.23
+      isbot: 5.1.26
       jose: 5.10.0
       jsonwebtoken: 9.0.2
       node-fetch: 2.7.0
@@ -6720,7 +6720,7 @@ snapshots:
       '@shopify/shopify-api': 11.9.0
       '@shopify/shopify-app-session-storage': 3.0.13(@shopify/shopify-api@11.9.0)
       '@shopify/storefront-api-client': 1.0.5
-      isbot: 5.1.23
+      isbot: 5.1.26
       react: 18.3.1
       semver: 7.7.1
     optionalDependencies:
@@ -8809,7 +8809,7 @@ snapshots:
 
   isarray@2.0.5: {}
 
-  isbot@5.1.23: {}
+  isbot@5.1.26: {}
 
   isexe@2.0.0: {}
 
