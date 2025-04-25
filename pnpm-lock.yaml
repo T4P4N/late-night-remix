@@ -30,8 +30,8 @@ importers:
         specifier: ^2.15.0
         version: 2.15.3(typescript@5.7.3)
       '@shopify/app-bridge-react':
-        specifier: ^4.1.6
-        version: 4.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^4.1.10
+        version: 4.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@shopify/cli':
         specifier: ^3.63.1
         version: 3.76.0
@@ -1597,14 +1597,14 @@ packages:
   '@shopify/api-codegen-preset@1.1.4':
     resolution: {integrity: sha512-l2jZfhVllvKXuGUIzU7OUVUXeL84jhZNqKwyaUBPvKus0eUjBkMsDtvLTpUHLUj3ghKBJYvtg+VvV4gBoDdY/g==}
 
-  '@shopify/app-bridge-react@4.1.6':
-    resolution: {integrity: sha512-/Txi1L8ihV2ZK1w7Qh6+wsCITknQI7XS89nYYbqF7y2+hne446VM2DEsO7EVWz0MFc2tFA2IILjxdwVYSREYWw==}
+  '@shopify/app-bridge-react@4.1.10':
+    resolution: {integrity: sha512-qtyWzC/9UzKAHV4+HtHfPhZdKpHlVl671tTpzCM2EqLNv0J8pABFYKTChoDvbqI4IFcKaRQpZcM+Waq2NtNy4g==}
     peerDependencies:
-      react: ^18.0.0
-      react-dom: ^18.0.0
+      react: '*'
+      react-dom: '*'
 
-  '@shopify/app-bridge-types@0.0.16':
-    resolution: {integrity: sha512-UjKot8gOAv0qc9dxaooQv9fl1ob6zlupuOAgexj++H8cYQuAD8I6cbJ/whY4skqRXM/qZn68vuERq3eeDlByJg==}
+  '@shopify/app-bridge-types@0.0.18':
+    resolution: {integrity: sha512-02AiWgn1op7qCKx6HXpFqBwJNPoqZ9g47hltch1ZD4bC+2vVuCgePlmJ+yEFWcN5tW9AG/a27Igsbi0LnY01gA==}
 
   '@shopify/cli@3.76.0':
     resolution: {integrity: sha512-xaTH0HyySMYIdOJUPTvMEY68s96jfwEJxbh2v5v0W7+o1JO9dfcaKAz3EcLLWzPE8s7/LuZZj+e1w68OlTuefg==}
@@ -3801,6 +3801,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
@@ -6649,13 +6650,13 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@shopify/app-bridge-react@4.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@shopify/app-bridge-react@4.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@shopify/app-bridge-types': 0.0.16
+      '@shopify/app-bridge-types': 0.0.18
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@shopify/app-bridge-types@0.0.16': {}
+  '@shopify/app-bridge-types@0.0.18': {}
 
   '@shopify/cli@3.76.0':
     dependencies:
